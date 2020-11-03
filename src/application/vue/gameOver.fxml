@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="aPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controleur.ControlerGameOverMenu">
+   <children>
+      <ImageView fitHeight="760.0" fitWidth="1168.0" layoutX="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ressources/background/gameOver.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menuPrincipalButton" layoutX="509.0" layoutY="567.0" mnemonicParsing="false" onAction="#chargerMenuPrincipal" style="-fx-background-color: #1F201C;" text="menu principal">
+         <font>
+            <Font name="Herculanum" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0">
+               <stops>
+                  <Stop color="#d01515" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </children>
+</AnchorPane>
